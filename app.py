@@ -1,6 +1,7 @@
 import streamlit as st
 import pickle
 import numpy as np
+from sklearn.ensemble import RandomForestClassifier 
 # try:
 #     model = pickle.load(open('selected_features.pkl', 'rb'))
 # except Exception as e:
